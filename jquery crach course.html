@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery crash coure</title>
+	<script src=" https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<style type="text/css">'
+     body{
+     	font-size: 17px;
+     	font-family: arial;
+     	font-color: #f4f4f4;
+     	line-height: 1.5em;
+     }
+     header{
+        background: #333;
+        color:#fff;
+        text-align:center;
+        margin-bottom: 10px;
+        border-bottom: 4px solid #000;
+      padding-top: 1px;
+
+     }
+     #container{
+      width: 90%;
+      margin: auto;
+      padding-top: 10px;
+     }
+</style>
+</head>
+<body>
+	<header>
+   <h1 class="yi">jquery crash course</h1>
+</header>
+<div id="container">
+	<h1 id="heading-1">Heading one</h1>
+	<p id="para-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<span> when an unknown printer took a galley of type and scrambled it to make a type specimen</span> book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+
+	<h1 id="heading-2">Heading two</h1>
+	<p id="para-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using <span> Lorem Ipsum is that it</span> has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+
+<h1 class="abi"></h1>	<br>
+<form class="form">
+	<label>Name</label><br>
+	<input type="text" id="name" name="name" required><br>
+	<label>Email</label><br>
+	<input type="email" name="email" id="email" required><br>
+	<label>Gender</label><br>
+	<select id="gender" name="gender" required>
+	<option value="male">Male</option>
+	<option value="female">Female</option> 
+</select>
+<br>
+<input type="submit" value="Submit">
+</form>
+</div>
+
+
+<ul class="shai">
+	<li>Jo bheji thi dua</li>
+	<li>Kya hua </li>
+	<li>I hate everything about</li>
+	<li>Monday left me broken</li>
+	<li>Kh bhi de kh bhi de</li>
+	<li>Main hoon naa</li>
+</ul>
+<input type="button" value="Button-1">
+<input type="submit" >
+<input type="text" name="namo" placeholder="type something">
+<a href="https://www.yahoo.com" class="ti">yahoo</a>
+<a href="https://www.google.com">google</a>
+<div id="container">
+<h3>Mouse events</h3>
+<button id="btn-1" class="being">Button-1</button>
+<button id="btn-2">Button-2</button>
+
+
+</div>
+<script type="text/javascript">
+	//$('h1.yi').hide(
+	//$('h1.yi').css('background','yellow')
+	$('header h1')
+	$('p#para-2 span').css('color','blue')
+   // $('ul.shai li:first').css('color','green')
+   // $('ul.shai li:even').css('color','green')
+   //$('ul.shai li:nth-child(2n)').css('color','blue')
+  // $(':button').hide()
+  // $(':submit').css('background','dark grey')
+  //now working with some attributes
+$('[href]').css('color','red')
+$('[href]').css('margin-right','20px')
+$('[href').css('margin-left','12px')
+$('[hrf]').css('border','2px,solid,black')
+$('a.ti').hide()
+$('#para-2').hide()
+
+$(document).ready(function(){
+
+
+//$('#btn-1').click(function(){
+	//alert('You click this button');
+//});
+
+//$('#btn-1').click(function(){
+     //$('#para-2').hide();
+    // $('#para-2').toggle();
+//});
+
+//$('#btn-2').click(function(){
+	//$('#para-2').toggle();
+//});
+//$('#btn-1').on('click',function(){
+	//$('#para-1').toggle();
+//});
+/*$('#btn-1').hover(function(){
+	$('#para-1').toggle();
+});*/
+//Now here is hover has some different effect so learn this by the method of on of on moused
+//just checking how hover effect is work
+//$('#btn-1').on('mouseenter',function(){
+//	$('#para-1').toggle();
+//});
+//$('#btn-1').on('mousemove',function(){
+//$('#para-1').toggle();
+
+//});
+//$('#btn-1').on('mousedown',function(){
+	//$('#para-1').toggle();
+//});
+//$('#btn-1').on('mouseup',function(){
+	//$('#para-2').toggle()
+//})
+/*//above these are the mouse events 
+$('#btn-1').click(function(e){
+	console.log(e)
+})
+$('#btn-1').click(function(e){
+      //  alert(e.currentTarget.id);
+     // alert(e.currentTarget.innerHTML)
+     //alert(e.currentTarget.outerHTML)
+     alert(e.currentTarget.className)
+});//outerHTML that defined the tag
+//id defined id className defines class
+
+//wanna to  show coordinates in the browser 
+$(document).on('mousemove',function(e){
+	   console.log('Coords:Y:'+e.clientY+'Coords:X:'+e.clientX )
+});
+//wanted to show the coordinates of every element in web page or browser
+$(document).on('mousemove',function(e){
+	$('h1.abi').html('Coords:Y:'+e.clientY+'Coords:X:'+e.clientX );
+});
+
+//hadling of form of focus
+$('input').focus(function(){
+	//alert('Focus ')
+	$(this).css('background','pink');
+});
+$('input').blur(function(){
+	//alert('Focus ')
+	$(this).css('background','white');
+});//use focus nd blur instantly for best result
+//now using of this keyword
+$('input').keyup(function(e){
+	//console.log('keyup');
+	console.log(e.target.value);
+})*/
+//using of change:-select is refer for a change
+/*$('select#gender').change(function(e){
+	//$alert('Changed');
+   alert(e.target.value);
+});*/
+
+//dealing with submitt
+$('#form').submit(function(e){
+   e.preventDefault();
+	//console.log('Submitted ');
+	var name = $('input#name').val();
+	console.log(name)
+});
+
+});//using of jquery you can also make hide nd seek messages 
+
+//first you should have to think of ; $ () it's all just like c language
+
+
+	</script>
+</body>
+</html>

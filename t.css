@@ -1,0 +1,19 @@
+div{background-image:url(https://www.lawcris.co.uk/image?w=1200&h=675&fit=crop-50-50&src=production%2Fcms%2Fprocessed%2F12eb29ab37f5dfce2682bddf404eb574.jpg&s=2acd7a07f61d95eb8cfb7dc7a575bec4);
+ background-repeat:no-repeat;
+background-size: cover;
+background-position:center;
+font-size: 25px;
+font-weight: bold;
+padding-right: 2px;
+padding-left: 2px;
+}
+.isn{
+	font-size: 30px;
+	font-family: sans-serif;
+	font-style: italic;
+}
+.itt{
+	background-color: rgba(100,40,100,0.1);
+	padding-bottom:2%;
+}
+

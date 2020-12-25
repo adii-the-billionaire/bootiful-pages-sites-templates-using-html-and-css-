@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Monoton', sans-serif;
+    font-size: 45px;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+header h1 {
+    margin: 70px 0px 20px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+header p {
+    font-size: 45px;
+}
+
+.pads {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.pads>div {
+    height: 200px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1 {
+    background: #015728;
+}
+
+.pad2 {
+    background: #d36060;
+}
+
+.pad3 {
+    background: #c060d3;
+}
+
+.pad4 {
+    background: #d3d160;
+}
+
+.pad5 {
+    background: #f12323;
+}
+
+.pad6 {
+    background: #220704;
+}

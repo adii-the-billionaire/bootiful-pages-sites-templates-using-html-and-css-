@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Project</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @media(max-width: 576px) {
+            .jo {
+                background-image: url(https://data.whicdn.com/images/148264839/superthumb.jpg?t=1416826816);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: rgba(67, 67, 85, 0.514);
+            }
+            .iot {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .ram {
+                height: 35px;
+                float: left;
+                margin-top: 0.6rem;
+                background-color: rgba(67, 67, 85, 0.514);
+            }
+            .shyam {
+                font-size: 45px;
+                font-family: 'Courgette', cursive;
+                color: black;
+                font-weight: bold;
+            }
+            .whiskey {
+                padding: 3% 2%;
+                margin-bottom: 20px;
+                background-color: rgba(67, 67, 85, 0.514);
+            }
+            .sita {
+                float: right;
+                height: 50px;
+            }
+            .ram1 {
+                float: right;
+                padding-top: 1%;
+                font-size: 40px;
+                font-family: 'Luckiest Guy', cursive;
+                color: black;
+            }
+            .shyam:hover {
+                margin-left: 2px;
+            }
+            a:hover {
+                color: rgba(40, 40, 97, 0.4);
+            }
+            .ram1:hover {
+                color: rgba(40, 40, 97, 0.4);
+            }
+            .iot {
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+            .iot1 {
+                font-family: 'Courgette', cursive;
+                padding-left: 2px;
+            }
+            .melodies {
+                position: absolute;
+                margin: 0%;
+                padding-bottom: 15px;
+                display: flex;
+                text-align: center;
+            }
+            .i {
+                list-style: none;
+            }
+            .u {
+                position: relative;
+                width: 50px;
+                height: 50px;
+                background: #746e7e;
+                display: block;
+                text-align: center;
+                margin: 0px 10px;
+                border-radius: 50%;
+                padding: 2px;
+                box-sizing: border-box;
+                text-decoration: none;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+                transition: .7s;
+            }
+            ul li a .fa {
+                width: 100%;
+                display: block;
+                height: 100%;
+                background: rgb(100, 224, 117);
+                border-radius: 50%;
+                line-height: calc(80px- 2px);
+                font-size: 35px;
+                padding-top: 5px;
+                color: rgb(3, 12, 20);
+            }
+            ul li a .fa:hover {
+                box-shadow: 2px 5px 12px rgb(3, 12, 20);
+            }
+            .sing {
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .ti1 {
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 35px;
+                border-bottom: 2px solid black;
+                margin-bottom: 15px;
+                margin-left: 70px;
+                margin-right: 70px;
+            }
+            .it {
+                margin: 4px;
+            }
+            .lp {
+                margin-left: 20px;
+                margin-bottom: 35px;
+                padding-bottom: 15px;
+            }
+            .lp1 {
+                text-align: center;
+                font-size: 30px;
+                font-family: 'Abril Fatface', cursive;
+                margin-bottom: 20px;
+            }
+            .lp2 {
+                font-size: 20px;
+                font-family: 'Kanit', sans-serif;
+            }
+            .ir {
+                font-size: 25px;
+            }
+            .tr {
+                color: black;
+                color: #9c0d65;
+            }
+            .ui2 {
+                font-size: 35px;
+                font-family: 'Indie Flower', cursive;
+                font-weight: bold;
+                text-align: center;
+            }
+            .ui3 {
+                font-size: 60px;
+                font-family: 'Indie Flower', cursive;
+                font-weight: bold;
+                text-align: center;
+                background-color: rgba(67, 67, 85, 0.514);
+            }
+            .qw {
+                align-items: center;
+                align-content: center;
+                text-align: center;
+                margin: 20px;
+            }
+            .it {
+                background-image: url(https://render.fineartamerica.com/images/rendered/default/print/8.000/4.500/break/images-medium-5/diagonal-lines-vector-background-geometric-pattern-white-backdrop-amiak.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .ti {
+                background-image: url(https://webimg.secondhandapp.com/w-i-mgl/5cac616774867d7d2b7ee5e7);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            body {
+                background-image: url(https://www.ppgpaints.com/cms/getmedia/ffa793fe-fa3a-4aa1-b170-6a2455ecc1de/room-living-room_faded-violet__50bb-54_079.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .lo {
+                background-image: url(https://ctl.s6img.com/society6/img/yRVsvDSBq4YYnqOJBgmTphTdXUE/h_264,w_264/coffee-mugs/small/right/greybg/~artwork,fw_4601,fh_1998,fy_-2068,iw_4600,ih_4600/s6-original-art-uploads/society6/uploads/misc/5c0de30c23234dc490553fc429d9fd5b/~~/gradient-teal-turquoise-beige-green-ocean-waves-abstract-summer-ombre-faded-color-minimal-mugs.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .qo {
+                background-image: url(https://www.dhresource.com/0x0s/f2-albu-g8-M00-6E-F3-rBVaVFwOKPmAS1uFAALhbT83KdI604.jpg/36-pcs-lot-stained-sky-memo-pad-stick-mark.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .isaa {
+                background-image: url(https://images.prod.meredith.com/product/a28e7c8d38b274a74eaa27044b8fa83c/1564783309004/l/wallpaper-rustic-blue-faux-vintage-old-rug-carpet-textured-moroccan-boho-330008);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="jo">
+        <div class="whiskey">
+            <a href="#">
+                <img src="https://icon-library.net/images/writing-icon-png/writing-icon-png-17.jpg" class="ram">
+                <span class="shyam">aflah</span>
+            </a>
+            <a href="#">
+                <span class="ram1">swap</span>
+                <image src="https://cdn0.iconfinder.com/data/icons/avatar-2/500/man-2-512.png" class="sita"></image>
+            </a>
+        </div>
+        <div class="iot">
+            <h1 class="iot1">How to make <span class="iot2">website.</span></h1>
+        </div>
+        </div>
+    </header>
+    <div class="ti">
+        <header class="ti1">Be a Developers</header>
+        <div class="it">
+
+            <span class="lp1">Developers work in two platform:</span>
+            <ol class="lp">
+                <br>
+                <li class="lp2"><span class="ir">Frontend Development:</span><br>A front-end developer is a programmer that codes the front end of a website. Typically, the front-end developer's job is to convert website design files into raw HTML, JavaScript (JS) and/or
+                    CSS code. This includes the basic website design/layout, images, content, buttons, navigation and internal links. The end result is code that serves as the website's front-end structure, which is used by a back-end developer to add
+                    business logics and connect databases and processes, among other processes.<br>
+        </div>
+        <div class="lp lp2">
+            <ol><span class="ir">How to pro in Frontend Development:</span>
+                <li>Start with HTML and CSS HTML and CSS are basic to become frontend developer. These are for user interaction.</li>
+                <li>Learn JavaScript JavaScript gives you tons of interactivity on your website. Slider, collapse button is easily made using JS.</li>
+                <li>Learn jQuery jQuery gives you ready-made element for your website.</li>
+                <li>Learn Bootstrap Framework There is lots of reason to learn bootstrap. Bootstrap has lots of Js plugin and CSS classes for make website more interactive. It is very easy to learn and you can easily design a beautiful website using a few
+                    codes only.</li>
+                <li>In my terms just become pro to google nd use beautiful technology in ur project.</li>
+            </ol>
+        </div>
+
+
+        <div>
+            </li>
+            <div class="isaa">
+                <ul class="lp lp2">
+
+                    <ol><span class="ir">Backend Development:</span>
+
+                        <li>Choose a Language & Framework:<br> You can not master everything at once. So, it’s important to choose a programming language like Python, PHP, Ruby, JavaScript and subsequently, choose a framework over it. Since you already know
+                            a Front-end so, you must be familiar with programming and basics of JavaScript.<br> <br><span class="ir">I think the back-end frameworks which are trending in 2019 are:</span><br>1. Django - Built over Python <br>2. NodeJS-Built
+                            over the JavaScript <br>3. Golang-Built over the Go._youtube using Golang for backend<br>4. Laravel - Built over the PHP<br>5. C++ ,Java also be used for backend.
+                        </li>
+                </ul>
+            </div>
+            <br>
+            <div class="lo">
+                <ol class="lp lp2">
+                    <li><span class="ir">Learn the Programming fundamentals and language basics:</span>
+                        <br>I hope you are already familiar with programming fundamentals, so you just need to spend some time in learning the new syntax. If you know one programming language then it becomes quite easier to learn new ones. You just need
+                        to check the syntax, rest of the logic will remain the same.</li>
+                    <br>
+                    <li><span class="ir">Data Structure & Algorithm: </span><br>It’s huge. That’s the main reason most of the developers skip this step and jump to learning framework. I strictly recommend you to revise your basic Data Structures and Algorithmic
+                        skills. You don’t need to be expert but you should understand Stack, Queue, Linked List, Tree, Graph, Hashing, Sorting & Searching Algorithms and so on.</li>
+                    <br>
+                    <li><span class="ir">Basics of Framework:</span>
+                        <br> Based on whatever framework you have chosen, you can learn the basics of that very framework. Most of them follow the same MVC (Model-View-Controller) principle.
+                        <br>
+                        <ol>You can use websites like:
+                            <li><a href="http://codecademy.com/"><span class="tr">Codecademy</span></a></li>
+                            <li><a href="https://www.udemy.com"><span class="tr">Udemy</span></a></li>
+                            <li>Youtube tutorials</li>
+                        </ol>
+                    </li>
+                    <li>Database <br><br>If you are not from computer science background then you need to spend some time in learning the basic concept of Database. I think the short tutorials from the websites like TutorialsPoint will be enough for now.</li>
+                </ol>
+                </li>
+
+                </ol>
+            </div>
+            <br>
+            <ul class="lp lp2"> <span class="ir">2. Using of wordpress:</span>
+
+                <li>WordPress runs on more than 23 percent of all websites on the web, it makes a very juicy target for hackers, simply because of the enormous installed base. That’s the reason why you're hearing such questions about WordPress. WordPress
+                    can be a very safe environment, but it needs to be managed. The open-source developers are very diligent and patch the code as soon as any vulnerabilities are found. And also, you can use a managed hosting service that constantly checks
+                    your Wordpress sites for malware.</li>
+                <li>WordPress never required any coding knowledge. Blogging website is commonly make by wordpress.Wordpress used backend language PHP. </li>
+            </ul>
+
+            <br>
+            <ul class="lp lp2"><span class="ir">3. Using of wix nd soo many website builder that are present in market you can use.</span></ul>
+
+        </div>
+    </div>
+    <section class="ui">
+        <div class="container">
+            <div class="ui1">
+                <p class="ui2">Received very beautiful <span class="">aflah</span> every weekend.</p>
+
+                <form class="form-inline qw">
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="text" class="sr-only">Name</label>
+                        <input type="text" class="form-control" id="inputPassword2" placeholder="Name">
+                    </div>
+                    <div class="form-group mb-2">
+                        <label for="inputEmail4"></label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                    </div>
+                    <button type="submit" class="btn btn-dark mb-2">Submitt:)</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="container sing qo">
+        <p class="ui3">share aflah:)</p>
+        <ul class="melodies qo">
+            <li class="i">
+                <a href="#" class="u"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="i">
+                <a href="#" class="u"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li class="i">
+                <a href="#" class="u"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </li class="i">
+            <li class="i">
+                <a href="#" class="u"><i class="fa fa-github" aria-hidden="true"></i></i></a>
+            </li>
+            <li class="i">
+                <a href="#" class="u"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
